@@ -1,0 +1,35 @@
+{
+    "urlBase": "res://raw",
+    "type": "spherical2",
+    "keep": "all",
+    "images":
+    {
+        "image": "pano3b"
+    },
+    "camera":
+    {
+    	"keep": "all"
+    },
+    "sensorialRotation": true,
+    "hotspots":
+	[
+		{
+			"id": 3,
+			"atv": 5.0,
+			"ath": 300.0,
+			"width": 0.05,
+			"height": 0.05,
+			"image": "hotspot",
+			"onClick": "load('res://raw/pano2_info', true, BLEND(2.0, 1.0), 10.0, 140.0)"
+		},
+		{
+			"id": 4,
+			"atv": 10.0,
+			"ath": 140.0,
+			"width": 0.05,
+			"height": 0.05,
+			"image": "hotspot",
+			"onClick": "load('res://raw/pano4_info', true, BLEND(2.0, 1.0), 10.0, 200.0)"
+		}
+	]
+}

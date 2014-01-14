@@ -1,0 +1,32 @@
+{
+    "urlBase": "res://raw",
+    "type": "spherical2",
+    "keep": "all",
+    "images":
+    {   
+    	"image": "pano1b"
+    },
+    "camera":
+    {
+    	"keep": "all|~atvRange|~rotation|~fov",
+        "atvMin": -90.0,
+        "atvMax": 90.0,
+        "vLookAt": 0.0,
+        "hLookAt": 0.0
+    },
+    "sensorialRotation": true,
+    "hotspots":
+	[
+		{
+			"id": 1,
+			"atv": 0.0,
+			"ath": 0.0,
+			"width": 0.05,
+			"height": 0.05,
+			"image": "hotspot",
+			"alpha": 0.8,
+			"overAlpha": 1.0,
+			"onClick": "load('res://raw/pano2_info', true, BLEND(2.0, 1.0), 5.0, 325.0)"
+		}
+	]
+}

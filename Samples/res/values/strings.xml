@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arboretum</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_nav__reel">Nav_Reel</string>
+    <string name="title_activity_nav__virt">Nav_Virt</string>
+    <string name="nav_reel">Navigation Réelle</string>
+    <string name="nav_virt">Navigation Virtuelle</string>
+    <string name="options">Options</string>
+    <string name="credits">Crédits</string>
+    <string name="ph">Ginoux Pierre-Henry</string>
+    <string name="jules">Legros Jules</string>
+    <string name="ben">Perruche Benoît</string>
+    <string name="pat">Perea Patrick</string>
+    <string name="paul">Mariage Paul</string>
+    <string name="art">Clerc-Gherardi Arthur</string>
+    <string name="real">Application réalisée par :</string>
+    <color name="vert_clair">#7F00aa33</color>
+    <string name="nav_virt_double">Navigation Virtuelle Double</string>
+    <string name="nav_reel_bench">Navigation Réelle Benchmark</string>
+    <string name="titre_appli">Arboretum</string>
+
+</resources>
